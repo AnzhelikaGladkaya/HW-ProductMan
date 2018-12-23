@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #303030;
+  background-color: #efefef;
+}
+
+h1{
+  font-size: 150px;
+  line-height: 150px;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 48px;
+}
+
+p{
+  font-size: 24px;
+}
+
+a {
+  color: #303030;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+img{
+  width: auto;
+  max-width: 100%;
+}
+
+header{
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 130px;
+}
+
+.wrapper{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header a.logo{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+header a.logo:hover{
+  text-decoration: none;
+}
+
+header nav{
+  float: right;
+  padding-top: 20px;
+}
+header nav a {
+  display: inline-block;
+  font-size: 18px;
+  padding: 0 25px;
+  transition: all 0.3s;
+}
+
+header nav a:last-child{
+  padding-left: 13px;
+  padding-right: 0;
+}
+
+header nav a:hover {
+  text-decoration: none;
+  color: #e10011;
+}
+
+section .black-and-white{
+  width: 55%;
+  text-align: right;
+  display: inline-block;
+  position: relative;
+  margin-right: 105px;
+}
+section .headphones{
+  display: inline-block;
+  position: absolute;
+}
+section p {
+  line-height: 35px;
+  margin-top: 25px;
+}
+section a {
+  color: #e10011;
+}
+section .view{
+  margin-top: 25px;
+}
+section .slide{
+  text-align: center;
+  padding: 60px 0 105px;
+}
+section .fa-circle:hover {
+  color: #e10011;
+  cursor: pointer;
+}
+/* спросить о расстоянии между элементами */
+section.featured-product{
+  padding: 115px 75px 75px;
+  background-color: #ffffff;
+}
+section.featured-product h2{
+  text-align: center;
+}
+section.featured-product img.star{
+  display: inherit;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.featured-product p{
+  width: 48%;
+  font-size: 18px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 22px;
+  padding-bottom: 80px;
+}
+.first-line, .second-line{
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-line{
+  margin-top: 30px;
+}
